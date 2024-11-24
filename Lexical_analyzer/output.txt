@@ -1,0 +1,47 @@
++--------+---------------+---------------+---------------+
+| Line No| Lexeme        | Token         | Token Value   |
++--------+---------------+---------------+---------------+
+| 1      | int           | KEYWORD       | 0             |
+| 1      | main()        | IDENTIFIER    | 0             |
+| 2      | {             | DELIMITER     | 2             |
+| 3      | int           | KEYWORD       | 0             |
+| 3      | a             | IDENTIFIER    | 1             |
+| 3      | =             | OPERATOR      | 4             |
+| 3      | 5;            | Constant      | 5;            |
+| 4      | float         | KEYWORD       | 1             |
+| 4      | b             | IDENTIFIER    | 2             |
+| 4      | =             | OPERATOR      | 4             |
+| 4      | 3.14;         | Constant      | 3.14;         |
+| 5      | if            | KEYWORD       | 3             |
+| 5      | (a            | IDENTIFIER    | 3             |
+| 5      | <             | OPERATOR      | 7             |
+| 5      | b)            | IDENTIFIER    | 4             |
+| 6      | {             | DELIMITER     | 2             |
+| 7      | a             | IDENTIFIER    | 1             |
+| 7      | =             | OPERATOR      | 4             |
+| 7      | a             | IDENTIFIER    | 1             |
+| 7      | +             | OPERATOR      | 0             |
+| 7      | 1;            | Constant      | 1;            |
+| 8      | }             | DELIMITER     | 3             |
+| 9      | else          | KEYWORD       | 4             |
+| 10     | {             | DELIMITER     | 2             |
+| 11     | a             | IDENTIFIER    | 1             |
+| 11     | =             | OPERATOR      | 4             |
+| 11     | a             | IDENTIFIER    | 1             |
+| 11     | -             | OPERATOR      | 1             |
+| 11     | 1;            | Constant      | 1;            |
+| 12     | }             | DELIMITER     | 3             |
+| 13     | return        | KEYWORD       | 7             |
+| 13     | 0;            | Constant      | 0;            |
+| 14     | }             | DELIMITER     | 3             |
++--------+---------------+---------------+---------------+
+
++--------+---------------+
+| Index  | Symbol        |
++--------+---------------+
+| 0      | main()        |
+| 1      | a             |
+| 2      | b             |
+| 3      | (a            |
+| 4      | b)            |
++--------+---------------+
