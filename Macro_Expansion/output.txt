@@ -1,0 +1,34 @@
+
+Expanded Code for INCREMENT:
+ADD R1
+Actual Parameter Table (APTAB):
+Parameter	Value
+&ARG1		R1
+
+Expanded Code for DECREMENT:
+ADD R2
+Actual Parameter Table (APTAB):
+Parameter	Value
+&ARG1		R2
+
+Expanded Code for MULTIPLY:
+ADD R3
+Actual Parameter Table (APTAB):
+Parameter	Value
+&ARG1		R3
+
+Macro Name Table (MNT):
+Macro Name	MDT Index	Number of Parameters
+INCREMENT		0		1
+DECREMENT		0		1
+MULTIPLY		0		1
+
+Macro Definition Table (MDT):
+Index	Definition
+0	MACRO INCREMENT &ARG1
+1	ADD &ARG1, 1
+2	MEND3	MACRO DECREMENT &ARG1
+4	SUB &ARG1, 1
+5	MEND6	MACRO MULTIPLY &ARG1
+7	MUL &ARG1, 2
+8	MEND

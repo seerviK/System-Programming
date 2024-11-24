@@ -1,0 +1,6 @@
+
+Macro Name Table (MNT):
+Macro Name	MDT Index	Number of Parameters
+
+Macro Definition Table (MDT):
+Index	Definition
