@@ -1,0 +1,20 @@
+Symbol Table:
+0    TWO    101
+1    NUM    103
+
+Literal Table:
+0    ='5'    102
+1    ='4'    105
+
+Pool Table:
+0    0
+1    1
+2    2
+
+Intermediate Code with LC (Variant I form):
+100   (AD, 1)         (C, 100)
+100   (IS, 4)   (1)   (L, 0)
+101   (IS, 1)   (2)   (S, 0)
+103   (IS, 5)   (3)   (S, 1)
+104   (IS, 5)   (4)   (L, 1)
+106   (AD, 2)         

@@ -1,0 +1,10 @@
+START 100
+        MOVER AREG, ='5'
+        ADD BREG, TWO
+        LTORG
+TWO     DS 1
+        MOV CREG, NUM
+        MOV DREG, ='4'
+        LTORG
+NUM     DC 6
+END
