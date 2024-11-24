@@ -1,0 +1,13 @@
+Symbol Table:
+0    TWO    101
+1    NUM    103
+2    4    105
+
+Intermediate Code with LC:
+LC   
+100   (AD, 1)   (C, 100)
+100   (IS, 4)   (R, 1)   (L, 0)
+102   (IS, 1)   (R, 2)   (S, 0)
+104   (IS, 5)   (R, 3)   (S, 1)
+106   (IS, 5)   (R, 4)   (S, 2)
+107   (AD, 2)   
