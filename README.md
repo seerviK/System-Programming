@@ -65,14 +65,8 @@ The **Macro Expansion** process replaces a macro name with the actual sequence o
 
 ### 🛠️ **Steps:**
 1. Locate macro definitions in the code. 🔍  
-2. Replace macro calls with corresponding code. 🔄  
-
----
-
-### 🔗 **Connect with Me**
-💻 [GitHub Profile](https://github.com/seerviK)  
-👔 [LinkedIn Profile](www.linkedin.com/in/kamlesh-choudhary-775512257)
-
+2. Replace macro calls with corresponding code. 🔄
+   
 ---
 
 🌟 **Happy Learning and Coding!** 🌟
