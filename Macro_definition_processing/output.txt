@@ -1,0 +1,36 @@
+Error: Duplicate macro name 'INCREMENT'
+Macro Name Table (MNT):
+Name: INCREMENT, MDT Index: 0, Params:  
+Name: DECREMENT, MDT Index: 1, Params:  
+
+Macro Definition Table (MDT):
+MDT Entry 0:
+LDA &A
+ADD #1
+STA &A
+MEND
+MDT Entry 1:
+LDA &B
+SUB #1
+STA &B
+MEND
+
+Parameter Name Table (PNTAB):
+Macro: INCREMENT, Parameter: &A
+Macro: DECREMENT, Parameter: &B
+
+Keyword Parameter Default Table (KPDTAB):
+Parameter: &A, Default Value: DEFAULT
+Parameter: &B, Default Value: DEFAULT
+
+EV Name Table (EVNTAB):
+EV Name: EV_PARAM
+EV Name: EV_PARAM
+
+SS Name Table (SSNTAB):
+SS Name: SS_PARAM
+SS Name: SS_PARAM
+
+Symbol Table (SSTAB):
+Symbol: SYMBOL_1, Value: 100
+Symbol: SYMBOL_1, Value: 100
