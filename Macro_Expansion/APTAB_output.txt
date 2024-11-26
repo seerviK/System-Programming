@@ -1,0 +1,3 @@
+APTAB(macro_name='INCR', arguments=['NUM1', 'INCREMENT=3', 'RESULTS1'], line_number=8)
+APTAB(macro_name='DECR', arguments=['NUM3', 'DECREMENT=2', 'RESULTS2'], line_number=9)
+APTAB(macro_name='ADD3', arguments=['NUM5', 'NUM6', 'NUM7', 'RESULTS3'], line_number=10)

@@ -1,0 +1,39 @@
+MNT:
+ Name=INCR, PosParams=3, KeyParams=1, ExpVars=0, MDT Ptr=0, KPDTAB Ptr=0, SST Ptr=0
+ Name=DECR, PosParams=3, KeyParams=1, ExpVars=0, MDT Ptr=2, KPDTAB Ptr=1, SST Ptr=1
+ Name=ADD3, PosParams=4, KeyParams=0, ExpVars=0, MDT Ptr=4, KPDTAB Ptr=2, SST Ptr=2
+
+PNTAB:
+ ['NUM', 'INCREMENT', 'RESULTS']
+ ['NUM', 'DECREMENT', 'RESULTS']
+ ['N1', 'N2', 'N3', 'RESULTS']
+
+KPDTAB:
+ INCREMENT = 1
+ DECREMENT = 1
+
+MDT:
+
+ADD (P,1) (P,2)
+MOV (P,3) (P,1)
+
+SUB (P,1) (P,2)
+MOV (P,3) (P,1)
+
+ADD (P,1) (P,2)
+ADD (P,1) (P,3)
+MOV (P,4) (P,1)
+
+SSTAB:
+result: 0
+resultdect: 3
+
+SSNTAB:
+ ['result']
+ ['resultdect']
+ []
+
+EVNTAB:
+ []
+ []
+ []
